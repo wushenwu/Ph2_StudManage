@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StudAndroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="editIP">请输入M Server的IP地址</string>
+    <string name="editPort">请输入M Server的端口</string>
+    <string name="defaultIP">10.0.2.2</string>
+    <string name="defaultPort">8642</string>
+    <string name="btnInit">初始化连接</string>
+    <string name="tvTbls">可处理表项: </string>
+    <string name="btnSearch">查询</string>
+    <string name="btnAdd">增加</string>
+    <string name="btnDel">删除</string>
+    <string name="btnUpdate">修改</string>
+    <string name="btnSubmit">提交</string>
+    <string name="btnCancel">放弃</string>
+
+</resources>

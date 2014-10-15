@@ -1,0 +1,101 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Server - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Server.res" /d "_DEBUG" "E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\Server\Server.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3A7.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Server.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\Server\DataBase.cpp"
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\Server\LogView.cpp"
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\Server\MainFrm.cpp"
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\MySocket\MyPacket.cpp"
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\MySocket\MySocket.cpp"
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\ThreadPool\MyThreadPool.cpp"
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\Server\NetWork.cpp"
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\Server\RecvFromWorkItem.cpp"
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\Server\Server.cpp"
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\Server\ServerDoc.cpp"
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\Server\ServerView.cpp"
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\Server\TblInfoView.cpp"
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\Server\TblTreeView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3A7.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3A8.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Server.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\Ph2_Project\项目提交\wbxu_Ph2StudManage\Server\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3A8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3A9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Server.pdb" /debug /machine:I386 /out:"../bin/Server.exe" /pdbtype:sept 
+".\Debug\DataBase.obj"
+".\Debug\LogView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyPacket.obj"
+".\Debug\MySocket.obj"
+".\Debug\MyThreadPool.obj"
+".\Debug\NetWork.obj"
+".\Debug\RecvFromWorkItem.obj"
+".\Debug\Server.obj"
+".\Debug\ServerDoc.obj"
+".\Debug\ServerView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TblInfoView.obj"
+".\Debug\TblTreeView.obj"
+".\Debug\Server.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3A9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DataBase.cpp
+LogView.cpp
+MainFrm.cpp
+MyPacket.cpp
+MySocket.cpp
+MyThreadPool.cpp
+NetWork.cpp
+e:\programming\git\ph2\ph2_project\项目提交\wbxu_ph2studmanage\server\network.cpp(271) : warning C4102: 'RELEASE' : unreferenced label
+RecvFromWorkItem.cpp
+Server.cpp
+ServerDoc.cpp
+ServerView.cpp
+TblInfoView.cpp
+TblTreeView.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3AB.tmp" with contents
+[
+/nologo /o"Debug/Server.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\DataBase.sbr"
+".\Debug\LogView.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\MyPacket.sbr"
+".\Debug\MySocket.sbr"
+".\Debug\MyThreadPool.sbr"
+".\Debug\NetWork.sbr"
+".\Debug\RecvFromWorkItem.sbr"
+".\Debug\Server.sbr"
+".\Debug\ServerDoc.sbr"
+".\Debug\ServerView.sbr"
+".\Debug\TblInfoView.sbr"
+".\Debug\TblTreeView.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3AB.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Server.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

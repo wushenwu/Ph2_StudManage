@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    <TextView
+        android:id="@+id/textViewTbls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/tvTbls" />
+
+    <Spinner
+        android:id="@+id/spinnerTbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textViewTbls" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinnerTbl"
+        android:text="@string/btnSearch" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSearch"
+        android:layout_alignBottom="@+id/btnSearch"
+        android:layout_toRightOf="@+id/btnSearch"
+        android:text="@string/btnAdd" />
+
+    <Button
+        android:id="@+id/btnDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerTbl"
+        android:layout_toRightOf="@+id/btnAdd"
+        android:text="@string/btnDel" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnDel"
+        android:layout_alignBottom="@+id/btnDel"
+        android:layout_toRightOf="@+id/btnDel"
+        android:text="@string/btnUpdate" />
+    
+     <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnUpdate"
+        android:layout_alignBottom="@+id/btnUpdate"
+        android:layout_toRightOf="@+id/btnUpdate"
+        android:text="@string/btnCancel" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnUpdate"
+        android:layout_alignBottom="@+id/btnUpdate"
+        android:layout_alignParentRight="true"
+        android:text="@string/btnSubmit" />
+
+   
+    
+    <GridView
+        android:id="@+id/dataGrid"
+        android:layout_width="match_parent"
+        android:layout_height = "match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnSearch"
+        android:numColumns="auto_fit" >
+
+    </GridView>
+
+</RelativeLayout>
