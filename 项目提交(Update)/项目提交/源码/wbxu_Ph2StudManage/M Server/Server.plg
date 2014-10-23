@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Server - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Server.res" /d "_DEBUG" "C:\Users\root\Desktop\wbxu_Ph2StudManage\M Server\Server.rc"" 
+Creating temporary file "C:\Users\root\AppData\Local\Temp\RSPA831.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Server.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\M Server\LogView.cpp"
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\M Server\MainFrm.cpp"
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\MySocket\MyPacket.cpp"
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\MySocket\MySocket.cpp"
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\ThreadPool\MyThreadPool.cpp"
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\M Server\NetWork.cpp"
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\M Server\RecvFromWorkItem.cpp"
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\M Server\Server.cpp"
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\M Server\ServerDoc.cpp"
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\M Server\ServerView.cpp"
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\M Server\TblInfoView.cpp"
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\M Server\TblTreeView.cpp"
+]
+Creating command line "cl.exe @C:\Users\root\AppData\Local\Temp\RSPA831.tmp" 
+Creating temporary file "C:\Users\root\AppData\Local\Temp\RSPA832.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Server.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\root\Desktop\wbxu_Ph2StudManage\M Server\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\root\AppData\Local\Temp\RSPA832.tmp" 
+Creating temporary file "C:\Users\root\AppData\Local\Temp\RSPA833.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/M Server.pdb" /debug /machine:I386 /out:"../bin/M Server.exe" /pdbtype:sept 
+".\Debug\LogView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyPacket.obj"
+".\Debug\MySocket.obj"
+".\Debug\MyThreadPool.obj"
+".\Debug\NetWork.obj"
+".\Debug\RecvFromWorkItem.obj"
+".\Debug\Server.obj"
+".\Debug\ServerDoc.obj"
+".\Debug\ServerView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TblInfoView.obj"
+".\Debug\TblTreeView.obj"
+".\Debug\Server.res"
+]
+Creating command line "link.exe @C:\Users\root\AppData\Local\Temp\RSPA833.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+LogView.cpp
+MainFrm.cpp
+MyPacket.cpp
+MySocket.cpp
+MyThreadPool.cpp
+NetWork.cpp
+RecvFromWorkItem.cpp
+Server.cpp
+ServerDoc.cpp
+ServerView.cpp
+TblInfoView.cpp
+TblTreeView.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+M Server.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
